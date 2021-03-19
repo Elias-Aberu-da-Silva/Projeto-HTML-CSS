@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Tela de cadastro</title>
+</head>
+<body>
+    <header class="color">
+            <h1>Tela de cadastro</h1>
+    </header>
+    <div class="container">
+       <main class="main">
+            <form action="" class="form">
+                <label for="text" nome="nome" id="nome">Digite o seu nome completo:</label>
+                <input type="text" name="nome" id="nome" placeholder="Informe o seu nome" required><br>
+
+                <label for="cpf" nome="cpf" id="cpf">Digite seu CPF:</label>
+                <input type="number" name="cpf" id="cpf" placeholder="Digite o seu cpf" required><br>
+
+                <label for="text" nome="e-mail" id="E-mail">Informe o seu e-email:</label>
+                <input type="text" name="e-mail" id="e-mail" placeholder="Digite o seu e-mail" required><br>
+
+                <label for="text" nome="telefone" id="telefone">Informe seu telefone:</label>
+                <input type="numero" name="telefone" id="telefone" placeholder="Digite o seu telefone" required><br>
+
+                <label for="text" nome="usuario" id="usuario">Cadastrar usuário:</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Informe um nome de usuário" required><br>
+
+                <label for="text" nome="password" id="password">Cadastrar senha:</label>
+                <input type="password" name="password" id="password" placeholder="Cadastrar senha" required><br>
+               
+            <div>
+                <label for="nome" id="sexo">Informe o seu gênero:</label><br>
+                <select class="select" name="nome" id="genero">
+                    <option disabled value="">Informe o seu genero:</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="O">Outros</option>
+                    <option value="P">Prefiro não falar</option>
+                </select><br><br>
+                <div class="btn">
+                <label for="text" class="label-data" nome="data-nasc" id="data-nasc">Data de nascimento:</label>
+                <input type="date" name="data-nasc" id="data-nasc"><br>
+                <input type="submit" nome="cadastrar" value="Cadastrar">
+            </div>
+            
+            </form>
+       </main>
+</div>
+</body>
+</html>
